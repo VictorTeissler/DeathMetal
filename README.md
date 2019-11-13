@@ -28,7 +28,7 @@ PIP
 
 ```
 First, I would make a virtual python3 environment and activate it.
-pip install git+https://github.com/Coalfire-Research/DeathMetal.git
+pip install git+https://github.com/VictorTeissler/DeathMetal.git
 ```
 
 ## Built With
@@ -41,9 +41,9 @@ Submit a pull request, or talk to me or something.
 
 ## Authors
 
-* **Victor Teissler** - *Initial work* - [Victor Teissler](https://github.com/Victor-Teissler)
+* **Victor Teissler** - *Initial work* - [Victor Teissler](https://github.com/VictorTeissler)
 
-See also the list of [contributors](https://github.com/Coalfire-Research/DeathMetal/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/VictorTeissler/DeathMetal/contributors) who participated in this project.
 
 ## License
 
@@ -54,4 +54,4 @@ This project is licensed under a modified MIT License - see the [LICENSE](LICENS
 * Jimmy Twotimes for pointing me at the scanning capabilities - this became rockso, thanks man!
 * Clutchisback for the beef hooks and help with the blog post - greatly appreciated.
 * Soen knows what he did.
-* Coalfire for the opportunity
+* Coalfire for the opportunity to develop the initial version. Thanks again.
