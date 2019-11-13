@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+
+import argparse
+
+parser = argparse.ArgumentParser(description='Prepare a USB image for provisioning')
+parser.add_argument('--port_management', default='16992', help='Web management port')
+parser.add_argument('--port_redir', default='16994', help='Redirection port for KVM, IDER and SOL')
+parser.add_argument('--ssl', help='Create an SSL cert and enable SSL')
+parser.add_argument('--ssl-file', help='Use an existing SSL cert and enable SSL')
+parser.add_argument('--password', '-p', default='admin', help='Password for initial login, Intel defaults this to admin')
+parser.add_argument('--wifi-ssid', '-w', help='If specified, prompts AMT to be accessible over wifi after joining to the given ssid')
+parser.add_argument('--wifi-psk', '-W', help='PSK for wireless authentication')
+
+args = parser.parse_args()
